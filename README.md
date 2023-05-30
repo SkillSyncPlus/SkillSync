@@ -1,1 +1,3 @@
 # SkillSync
+Inefficient worker monitoring and management hinder performance tracking, task completion, and a positive work environment. Existing HR systems lack real-time monitoring and incentives, resulting in low productivity and engagement. Our project combines Zoho People and Qwiklabs rewards system to develop a platform that enhances worker management, task assignment, and incentives. The goal is to increase task completion rates, promote a motivated work culture, and improve organizational success.
+![image](https://github.com/SkillSyncPlus/SkillSync/assets/108526951/9c851b58-ad83-4897-a39e-d67df26c18c6)
