@@ -1,0 +1,166 @@
+/* Card */
+.card {
+  padding: 1rem;
+  background: var(--color-card);
+  border-radius: 1rem;
+}
+
+.card.has-extra-padding {
+  padding: 2rem 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header-icon {
+  font-size: 1.25rem;
+}
+
+.card-h4 {
+  margin-bottom: 13px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-label);
+}
+
+.card-h3 {
+  margin-bottom: var(--length-md1);
+  color: var(--color-label);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-h3.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.card-h2 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+.card-h2.has-bottom-margin {
+  margin-bottom: 2rem;
+}
+
+/* Bar Chart */
+
+.card-bar-chart {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: flex-end;
+  height: 8rem;
+  background: repeating-linear-gradient(
+    rgba(255, 255, 255, 0.075) 0% 0.5%,
+    transparent 0.5% 20%
+  );
+}
+
+.card-bar-chart > div {
+  display: grid;
+  place-items: end;
+}
+
+.card-bar-chart > div > div {
+  width: 1.65rem;
+}
+
+.card-bar-chart.is-gauge-chart > div > div {
+  width: 3rem;
+}
+
+.card-bar-primary {
+  background: var(--color-primary);
+}
+
+.card-bar-default {
+  background: var(--color-default);
+}
+
+/* Avatar List */
+
+.avatar-list {
+  list-style-type: none;
+  padding: 0;
+  right: 1.2;
+}
+
+.avatar-list > li {
+  display: flex;
+  gap: var(--length-md2);
+  align-items: center;
+  margin-bottom: var(--length-md2);
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-title,
+.avatar-notes {
+  display: block;
+  line-height: 1;
+}
+
+.avatar-title {
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+.avatar-notes {
+  color: var(--color-label);
+  font-size: 0.875rem;
+}
+
+/* Timeline */
+.timeline {
+  padding-top: 1.25rem;
+}
+
+.timeline-row {
+  position: relative;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.timeline-when {
+  width: 3.5rem;
+  min-width: 3.5rem;
+  max-width: 3.5rem;
+  font-size: 0.75rem;
+}
+
+.timeline-badge {
+  width: 0.75rem;
+  min-width: 0.75rem;
+  max-width: 0.75rem;
+  height: 0.75rem;
+  margin: 1.5px 0.5rem 0;
+  border-radius: 50%;
+  border: 3px solid var(--color-default);
+  background: var(--color-card);
+}
+
+.timeline-row.primary .timeline-badge {
+  border-color: var(--color-primary);
+}
+
+.timeline-badge::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 4.5rem;
+  width: 2px;
+  height: calc(100% - 22px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.timeline-text {
+  color: var(--color-label);
+  font-size: 0.875rem;
+}

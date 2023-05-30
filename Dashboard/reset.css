@@ -1,0 +1,39 @@
+/* Variables */
+
+:root {
+  --color-primary: #3aafa9;
+  --color-accent: #fffffa;
+  --color-default: #363636;
+
+  --color-background: #2b7a78;
+  --color-card: #17252a;
+
+  --color-text: #f9f9f9;
+  --color-label: #aaaaaa;
+  --color-disabled: #888888;
+
+  --length-md1: 1rem;
+  --length-md2: 1.25rem;
+  --length-md3: 1.5rem;
+}
+
+/* Reset */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+  opacity: 1;
+  background-color: #3aafa9;
+  background-color: #3aafa9;
+  opacity: 0.95;
+  background-image:  radial-gradient(#def2f1 2px, transparent 2px), radial-gradient(#def2f1 2px, #3aafa9 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1;
+}

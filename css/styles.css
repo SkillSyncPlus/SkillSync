@@ -1,0 +1,190 @@
+
+body {
+    font-family: "Ubuntu";
+    background: rgb(23,37,42);
+    background: linear-gradient(rgba(23,37,42,1) 25%, rgba(58,175,169,1) 88%);
+    background-attachment: fixed;
+    background-color: #3aafa9;
+    height: 10000px;
+    color: #fff;
+  }
+  .link-container{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  
+  .container-fluid{
+    position: fixed;
+    top:0;
+  }
+  nav {
+    position: absolute;
+    top: 29px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    background-color: #17252a;
+  }
+  
+  nav a {
+    position: relative;
+    width: -1px;
+    display: table-cell;
+    text-align: center;
+    color: #949494;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+  }
+  
+  nav a:before,
+  nav a:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+  }
+  
+  nav a:before {
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+  }
+  
+  nav a:after {
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px;
+  }
+  nav a:hover {
+    color: #fff;
+  }
+  
+  nav a:hover:before,
+  nav a:hover:after {
+    transform: scale(1);
+  }
+  
+  .logo{
+    position: absolute;
+    top: -26px;
+    height: 50px;
+    padding: 2%;
+  }
+/* Hero Section */
+
+.row1{
+  position: absolute;
+  font-size: 60px !important;
+  font-family: 'Montserrat';
+  text-align: center;
+  top: 131px;
+  right: 319px;
+  font-weight: 600px;
+  letter-spacing: 3px;
+}
+.hero-para1{
+  position: absolute;
+  top: 219px;
+  left: 356px;
+  text-align: center;
+  font-size:20px;
+}
+.hero-img svg{
+  position: absolute;
+  width:400px;
+  height: 400px;
+  top: 346px;
+  right: 580px; 
+  align-items: center;
+}
+
+#features {
+  padding: 7% 15%;
+  margin:0;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+}
+
+.feature-box{
+  position: absolute;
+  top:50px;
+  padding:15%;
+}
+
+.chart svg{
+  position: absolute;
+  top: 724px;
+  left: -718px;
+  transform: scale(3.0);
+}
+
+.chart h3{
+  position: absolute;
+  top: 747px;
+  left: -767px;
+}
+
+.chart span{
+  font-size: 20px;
+  position: absolute;
+  top: 864px;
+  left: -873px;
+  font-weight: 300;
+}
+
+.bullseye svg{
+  position: absolute;
+  top: 689px;
+  left: -217px;
+  transform: scale(2);
+}
+
+.bullseye h3{
+  position: absolute;
+  top: 747px;
+  left: -238px;
+}
+
+.bullseye span{
+  font-size: 20px;
+  position: absolute;
+  top: 821px;
+  left: -658px;
+  font-weight: 300;
+}
+
+.row{
+  position: absolute;
+  right: 509px;
+}
+.balance svg{
+  position: absolute;
+  top: 690px;
+  left: 323px;
+  transform: scale(2.5);
+}
+
+.balance h3{
+  position: absolute;
+  top: 747px;
+  left: 269px;
+}
+
+.balance span{
+  font-size: 20px;
+  position: absolute;
+  top: 821px;
+  left: -658px;
+}

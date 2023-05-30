@@ -1,0 +1,40 @@
+.container {
+  padding: 1rem;
+  display: grid;
+  grid-gap: var(--length-md1);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "headline1 headline2"
+    "list list"
+    "growth growth"
+    "engagement engagement"
+    "regions regions"
+    "authors authors"
+    "activity activity";
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    grid-template-areas:
+      "headline1 headline2"
+      "list list"
+      "growth growth"
+      "engagement regions"
+      "authors authors"
+      "activity activity";
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "headline1 headline2 list list"
+      "engagement growth growth regions"
+      "authors authors activity activity";
+    width: 910px;
+    margin: 0 auto;
+    margin-right: 50px;
+    margin-top: 113px;
+  }
+}
